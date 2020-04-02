@@ -7,9 +7,9 @@ const REQUEST_SELECTION = 'copy-selection-url-to-clipboard';
     which requires additional clicks to navigate.
 */
 
-// support Firefox and Chrome
-if (!browser) {
-  var browser = chrome;
+// Google Chrome doesn't use the WebExtensions browser namespace name yet.
+if (typeof browser !== "undefined") {
+    var browser = chrome;
 }
 
 browser.contextMenus.create({
