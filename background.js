@@ -14,13 +14,13 @@ if (!browser) {
 
 browser.contextMenus.create({
     id: REQUEST_TITLE,
-    title: "Copy Page Title and Url",
+    title: "Copy Page Title and URL",
     contexts: ["page"],
     onclick: handleCopyRequest
 });
 browser.contextMenus.create({
     id: REQUEST_SELECTION,
-    title: "Copy Selection and Url",
+    title: "Copy Selection and URL",
     contexts: ["selection"],
     onclick: handleCopyRequest
 });

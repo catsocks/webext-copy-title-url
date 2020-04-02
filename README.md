@@ -1,6 +1,6 @@
-# Firefox/Chrome extension: Copy page title (or selection) and url to clipboard via context menu
+# Firefox/Chrome extension: Copy page title (or selection) and URL to clipboard via context menu
 
-This Firefox/Chrome extension adds an item to the context menu which allows you to __copy the title and the url__ of the current page to clipboard. If any __text is selected on the page__, the selected text is copied instead of the title of the page (the url is always included).
+This Firefox/Chrome extension adds an item to the context menu which allows you to __copy the title and the url__ of the current page to clipboard. If any __text is selected on the page__, the selected text is copied instead of the title of the page (the URL is always included).
 
 This is useful when emailing/sharing links or collecting citations/quotes from the web.
 
