@@ -34,4 +34,3 @@ function handleCopyRequest(info, tab) {
          useSelection: useSelection
     });
 }
-
