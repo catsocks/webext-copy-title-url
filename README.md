@@ -1,11 +1,10 @@
 # Firefox/Chrome extension: Copy page title (or selection) and URL to clipboard via context menu
 
-This Firefox/Chrome extension adds an item to the context menu which allows you to __copy the title and the url__ of the current page to clipboard. If any __text is selected on the page__, the selected text is copied instead of the title of the page (the URL is always included).
+This Firefox and Chrome extension adds two options to the context menu which allows you to copy the title and the URL of the current page to the clipboard, and a text selection and the URL, if there is text selected on the page.
 
 This is useful when emailing/sharing links or collecting citations/quotes from the web.
 
-It should serve as a basic replacement for the fantastic ["QuoteURLText" extension](https://addons.mozilla.org/en-US/firefox/addon/quoteurltext/) by Jay Palat, which had more functionality but is no longer supported by Firefox.
-
+It should serve as a basic replacement for the fantastic [QuoteURLText](https://addons.mozilla.org/en-US/firefox/addon/quoteurltext/) extension by Jay Palat, which had more functionality but is no longer supported by Firefox.
 
 ## Requirements
 
@@ -20,18 +19,11 @@ https://addons.mozilla.org/en-US/firefox/addon/copy-page-title-and-url/
 Download for Chrome:
 https://chrome.google.com/webstore/detail/copy-page-title-and-url/mcnddmglmjbomnfgkehnnblncllkaedm
 
-
 ## How to use
 
-* When browsing any web page:
+With no text selected, right-click a page and the context menu option _Copy page title and URL_ will allow you to copy the title of the current page and the URL to the clipboard.
 
-Right-click the page. In the context menu, a new item will be displayed: "Copy page title and url". This command will copy the title of the current page and its URL to clipboard.
-
-* When (some) text on the page is selected:
-
-Right-click the selected text. In the context menu, a new item will be displayed: "Copy selection and url". This command will copy the selected text and the URL (but not the page title) to clipboard.
-
-If you hold down the Control or Shift key while clicking the menu item, the extension will copy the title of the page as well as the selected text and the URL.
+With a text selection, right-click a page and the context menu option _Copy selection and URL_ will allow you to copy the text selection and the URL to the clipboard, with the page title included before the selected text if the <kbd>Control</kbd> or <kbd>Shift</kbd> modifier key is pressed while clicking the option.
 
 ## Version history
 
